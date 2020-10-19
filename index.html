@@ -21,11 +21,16 @@
     width: 300px;
     }
 
-    .center {
-        vertical-align: middle;
+    .middle {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) 
     }
 </style>
-<main class="silver-background center">
+<main class="silver-background middle">
     <h2 class="pink-text">About Coco</h2>
     <p class="red-text">Click here to see <a href="#">Coco Photos</a></p>
     <a><img  class="smaller-image" src="https://cdn.discordapp.com/attachments/703103494143606795/767858730351722566/image0.jpg" alt="test"></a>
