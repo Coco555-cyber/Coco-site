@@ -66,6 +66,39 @@
             width: 100vw;
             text-align: center;
         }
+
+        #animation {
+            animation-name: rainbow;
+            animation-duration: 7;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes rainbow {
+            0% {
+                color: red;
+            }
+            14% {
+                color: orange;
+            }
+            28% {
+                color: yellow;
+            }
+            42% {
+                color: green;
+            }
+            56% {
+                color: blue;
+            }
+            70% {
+                color: purple;
+            }
+            84% {
+                color: pink
+            }
+            100% {
+                color: red;
+            }
+        }
     </style>
 </head>
 
@@ -80,7 +113,7 @@
             alt="test"></a>
 
     <!-- <label for="Active"><input></label> -->
-    <div>
+    <div id="animation">
         <h1><strong><u>Facts about Coco:</u></strong></h1>
         <p>Coco loves:</p>
         <ul>
